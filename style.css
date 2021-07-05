@@ -67,7 +67,7 @@ body{
   color: white;
   padding: 15px 30px;
   border-radius: 25px;
-  box-shadow: 1px 1px 9px blue;
+  box-shadow: -1px -1px 14px 1px rgb(159, 255, 163);
 }
 .about-somthing{
   width: 40%;
@@ -129,4 +129,24 @@ body{
   padding-left: 5%;
   width: 60%;
   line-height: 20px;
+}
+.poeple-choice{
+  width: 100%;
+}
+.subscriber-follower-like{
+  width: 30%;
+  padding-left: 10%;
+}
+.subscriber-follower-like b{
+  font-size: 35px;
+  display: block;
+}
+.people-choice-box{
+  width: 60%;
+  display:flex;
+  margin-left: 18.5%;
+  padding: 30px;
+  border:2px solid white;
+  border-radius: 15px;
+  box-shadow: -1px -1px 14px 1px rgb(221, 221, 221);
 }
