@@ -8,13 +8,19 @@ body{
 .first-section{
   width: 100%;
   display: flex;
-  margin-top: 50px;
+  padding: 50px 0px;
   background-image: url(images/shapes/Frame58.jpg);
   background-repeat: no-repeat;
+}
+.about-container{
+  width: 100%;
+  display: flex;
+  background-image: url(images/shapes/Frame56.jpg);
 }
 .left-text{
   width: 50%;
   padding-left: 5%;
+  font-size: 20px;
 }
 .right-menu{
   width: 50%;
@@ -60,4 +66,23 @@ body{
   padding: 15px 30px;
   border-radius: 25px;
   box-shadow: 1px 1px 9px blue;
+}
+.about-somthing{
+  width: 50%;
+  padding: 5%;
+}
+.about-somthing h2{
+  color: gray;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.about-somthing p{
+  width: 50%;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+.about-somthing img{
+  width: 80%;
+  padding-left: 20%;
+  padding-top:30px;
 }
