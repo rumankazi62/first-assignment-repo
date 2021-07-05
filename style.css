@@ -15,11 +15,12 @@ body{
 .about-container{
   width: 100%;
   display: flex;
-  background-image: url(images/shapes/Frame56.jpg);
+  background-image: url(images/shapes/Frame57.jpg);
+  background-repeat: no-repeat;
 }
 .left-text{
-  width: 50%;
-  padding-left: 5%;
+  width: 40%;
+  padding: 0 5%;
   font-size: 20px;
 }
 .right-menu{
@@ -41,12 +42,13 @@ body{
   color:orange;
 }
 .head-width{
-  width: 50%;
+  width: 40%;
   padding: 0 5%;
 }
 .head-width img{
   width: 80%;
   margin-right: 30px;
+  
 }
 .head-width h1{
   font-size: 50px;
@@ -68,8 +70,8 @@ body{
   box-shadow: 1px 1px 9px blue;
 }
 .about-somthing{
-  width: 50%;
-  padding: 5%;
+  width: 40%;
+  padding: 0 5%;
 }
 .about-somthing h2{
   color: gray;
@@ -85,4 +87,46 @@ body{
   width: 80%;
   padding-left: 20%;
   padding-top:30px;
+  
+}
+.recipies-text{
+  text-align: center;
+}
+.recipies-text h2{
+  font-size: 30px;
+  color: rgb(109, 109, 109);
+}
+.recipies-text p{
+  display: block;
+  width: 30%;
+  margin: 0 35%;
+  font-size: 15px;
+  line-height: 20px;
+  color:rgb(63, 63, 63);
+}
+.recipies-container{
+  margin-left: 13%;
+  display: flex;
+}
+.box{
+  width: 22%;
+  margin: 50px;
+  height: 530px;
+  float: left;
+  border: 3px solid white;
+  border-radius: 30px;
+  box-shadow: -1px -1px 14px 1px rgb(214, 214, 214);
+}
+.box img{
+  width: 90%;
+  padding: 5%;
+  padding-bottom: 0;
+}
+.box h2{
+  padding-left: 5%;
+}
+.box p{
+  padding-left: 5%;
+  width: 60%;
+  line-height: 20px;
 }
