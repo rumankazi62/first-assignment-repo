@@ -36,10 +36,10 @@ body{
 }
 .contact-service{
   text-decoration: none;
-  color:orange;
+  color: greenyellow;
 }
 #single-color{
-  color:orange;
+  color: greenyellow;
 }
 .head-width{
   width: 40%;
@@ -107,6 +107,7 @@ body{
 .recipies-container{
   margin-left: 13%;
   display: flex;
+  margin-bottom: 30px;
 }
 .box{
   width: 22%;
@@ -149,4 +150,17 @@ body{
   border:2px solid white;
   border-radius: 15px;
   box-shadow: -1px -1px 14px 1px rgb(221, 221, 221);
+}
+footer{
+  background-color: black;
+  color: gray;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+#footer-text{
+  color: rgb(211, 211, 211);
+  padding-bottom: 40px;
+  padding-top: 10px;
+  display: block;
 }
